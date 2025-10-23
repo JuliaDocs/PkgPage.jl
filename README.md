@@ -1,11 +1,11 @@
 # PkgPage.jl
 
-[![Build Status](https://travis-ci.com/tlienart/PkgPage.jl.svg?branch=master)](https://travis-ci.com/tlienart/PkgPage.jl)
-[![Coverage](https://codecov.io/gh/tlienart/PkgPage.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/tlienart/PkgPage.jl)
+[![CI](https://github.com/JuliaDocs/PkgPage.jl/actions/workflows/ci.yml/badge.svg)](https://github.com/JuliaDocs/PkgPage.jl/actions/workflows/ci.yml)
+[![Coverage](https://codecov.io/gh/JuliaDocs/PkgPage.jl/branch/master/graph/badge.svg)](https://codecov.io/gh/JuliaDocs/PkgPage.jl)
 
 > Create a beautiful landing page for your package in less than 10 minutes
 
-* [**Instructions + Example**](https://tlienart.github.io/PkgPage.jl) (this will also be your starting point)
+* [**Instructions + Example**](https://juliadocs.org/PkgPage.jl) (this will also be your starting point)
 * **Authors**: Thibaut Lienart, Zlatan Vasović
 * **Contributors**: Ole Kröger
 
@@ -13,7 +13,7 @@ If that's your thing, here's a [screencast](https://www.youtube.com/watch?v=6kAR
 
 ## Examples
 
-- [PkgPage.jl](https://tlienart.github.io/PkgPage.jl)
+- [PkgPage.jl](https://juliadocs.org/PkgPage.jl)
 - [Lorenz Attraction App](https://tshort.github.io/Lorenz-WebAssembly-Model.jl/)
 - [LazilyInitializedFields.jl](https://kristofferc.github.io/LazilyInitializedFields.jl/)
 

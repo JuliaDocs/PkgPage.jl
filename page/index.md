@@ -4,7 +4,7 @@
 
 \begin{section}{title="About this Package", name="About"}
 
-\lead{PkgPage.jl is based upon [Franklin.jl](https://github.com/tlienart/Franklin.jl) and makes it easy to create a beautiful landing page for a package in less than 10 minutes.}
+\lead{PkgPage.jl is based upon [Franklin.jl](https://github.com/JuliaDocs/Franklin.jl) and makes it easy to create a beautiful landing page for a package in less than 10 minutes.}
 
 PkgPage uses [Bootstrap 4.5](https://getbootstrap.com/docs/4.5/getting-started/introduction/) and is meant to be particularly easy to use with minimal need to tweak HTML or CSS to get a great-looking result.
 With it you can:
@@ -14,7 +14,7 @@ With it you can:
 * easily control the layout, colors, code theme etc from the config file,
 * automatic insertion of new sections into the navbar,
 * automatic purging of bootstrap css to remove unused rules,
-* all the goodies from [Franklin.jl](https://github.com/tlienart/Franklin.jl):
+* all the goodies from [Franklin.jl](https://github.com/JuliaDocs/Franklin.jl):
     * live-rendering,
     * support for [KaTeX](https://github.com/KaTeX/KaTeX) and [highlight.js](https://highlightjs.org/) and automatic pre-rendering,
     * and [much more](https://franklinjl.org/).
@@ -265,7 +265,7 @@ If you would like to deploy the page with your own URL or using something else t
 page/__site
 ```
 
-as shown [here](https://github.com/tlienart/PkgPage.jl/blob/cce098535eb95c2c3ba919d605792abfee57710c/.gitignore#L3).
+as shown [here](https://github.com/JuliaDocs/PkgPage.jl/blob/cce098535eb95c2c3ba919d605792abfee57710c/.gitignore#L3).
 
 **GitAttributes**: in order for GitHub to ignore `page` folder it the language statistics for your repository, make sure to add a file `.gitattributes` with content
 
@@ -273,7 +273,7 @@ as shown [here](https://github.com/tlienart/PkgPage.jl/blob/cce098535eb95c2c3ba9
 page/* linguist-vendored
 ```
 
-like [this](https://github.com/tlienart/PkgPage.jl/blob/master/.gitattributes).
+like [this](https://github.com/JuliaDocs/PkgPage.jl/blob/master/.gitattributes).
 
 Now whenever you push changes to the `master` branch of your package, the  build process will be triggered and your page updated and deployed.
 **That's it**.
